@@ -32,6 +32,7 @@ steps:
       space: "dev" # add your space here
       credentialsId: "cfdeploy"
       appName: ""
+    cfCredentialsId: "cfdeploy"
     mtaDeployParameters: "-f --version-rule ALL"
   artifactPrepareVersion:
     versioningType: "cloud_noTag"
