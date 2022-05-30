@@ -26,12 +26,11 @@
        tmsUpload: false
     steps:
       cloudFoundryDeploy:
-        cloudFoundry: 
-          #apiEndpoint: "https://api.cf.us10.hana.ondemand.com"
-          org: "69fd37d7trial"
-          space: "dev"
-          credentialsId: "cfdeploy"
-          appName: ""
+        apiEndpoint: "https://api.cf.us10.hana.ondemand.com"
+        org: "69fd37d7trial"
+        space: "dev"
+        credentialsId: "cfdeploy"
+        appName: ""
         mtaDeployParameters: "-f --version-rule ALL"
     artifactPrepareVersion:
         versioningType: "cloud_noTag"
