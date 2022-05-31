@@ -26,13 +26,13 @@ stages:
     tmsUpload: false
 steps:
   cloudFoundryDeploy:
-    #cloudFoundry: #deprecated
-    #  apiEndpoint: "https://api.cf.eu10.hana.ondemand.com" # please verify if this is your API endpoint. If not, please change it
+    #cloudFoundry: #deprecated: spostati sotto cloudFoundryDeploy (vedi https://www.project-piper.io/steps/cloudFoundryDeploy/)
+    #  apiEndpoint: "https://api.cf.us10.hana.ondemand.com" # please verify if this is your API endpoint. If not, please change it
     #  org: "69fd37d7trial" # add your org here
     #  space: "dev" # add your space here
     #  credentialsId: "cfdeploy"
     #  appName: ""
-    apiEndpoint: "https://api.cf.eu10.hana.ondemand.com"
+    apiEndpoint: "https://api.cf.us10.hana.ondemand.com"
     org: "69fd37d7trial"
     space: "dev"
     credentialsId: "cfdeploy"
